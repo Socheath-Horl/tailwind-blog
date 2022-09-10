@@ -1,0 +1,14 @@
+{
+  "name": "tailwind-blog",
+  "version": "1.0.0",
+  "description": "learn tailwind",
+  "main": "index.js",
+  "scripts": {
+    "build": "tailwind -i ./src/tailwind.css -o ./dist/tailwind.css --watch"
+  },
+  "author": "Socheath",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.1.8"
+  }
+}
